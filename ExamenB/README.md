@@ -18,7 +18,7 @@ Clona este repositorio en tu máquina local:
 
 ```bash
 git clone https://github.com/BernardoChuchuca/Examen_Chat.git
-cd ExamenChuchucaFrank
+cd Examen_Chat
 ```
 ### 2. Construcción de la Imagen Docker
 Para construir la imagen Docker, asegúrate de estar en el directorio del proyecto y luego ejecuta el siguiente comando:
