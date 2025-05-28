@@ -17,13 +17,13 @@ La aplicación Angular está configurada para mostrar el mensaje "¡Bienvenido a
 Clona este repositorio en tu máquina local:
 
 ```bash
-git clone https://github.com/BernardoChuchuca/ExamenChuchucaFrank.git
+git clone https://github.com/BernardoChuchuca/Examen_Chat.git
 cd ExamenChuchucaFrank
 ```
 ### 2. Construcción de la Imagen Docker
 Para construir la imagen Docker, asegúrate de estar en el directorio del proyecto y luego ejecuta el siguiente comando:
 ```bash
-docker build -t bnachoxt/pruebac .  
+docker build -t bnachoxt/ejemplo .  
 ```
 
 4. Acceso a la Aplicación
@@ -36,6 +36,5 @@ http://localhost
 Si deseas publicar esta imagen en DockerHub:
 
 docker push bnachoxt/ejemplo:tagname
-
-docker push bnachoxt/pruebac:latest    
+  
 ```
