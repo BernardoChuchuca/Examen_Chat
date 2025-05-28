@@ -25,12 +25,7 @@ Para construir la imagen Docker, asegúrate de estar en el directorio del proyec
 ```bash
 docker build -t bnachoxt/pruebac .  
 ```
-### 3. Ejecución del Contenedor Docker
-Ejecuta el siguiente comando para iniciar el contenedor Docker con tu aplicación Angular servida por Apache y tambien creamos un el volumen para que al actualizar 
-el codigo en la carpeta dist, se pueda ver reflejado los cambios  en la aplicacion sin necesidad de volver a contruir la imagen nuevamente.
-```bash
-docker run -d -p 80:80 -v ${PWD}/DatosB/dist/datos-b/browser:/var/www/html --name examen bnachoxt/pruebac
-```
+
 4. Acceso a la Aplicación
 Una vez que el contenedor esté ejecutándose, abre un navegador web y ve a :
 ```bash
@@ -40,19 +35,7 @@ http://localhost
 6. Publicación en DockerHub
 Si deseas publicar esta imagen en DockerHub:
 
-Inicia sesión en DockerHub:
-
-``` bash
-docker login
-```
-Etiqueta la imagen
-
-```bash
-docker tag bnachoxt/pruebac
-```
-Sube la imagen:
-
-```bash
+docker push bnachoxt/ejemplo:tagname
 
 docker push bnachoxt/pruebac:latest    
 ```
