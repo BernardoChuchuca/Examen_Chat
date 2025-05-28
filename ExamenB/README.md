@@ -1,14 +1,10 @@
-﻿# Examen_Interciclo_Chuchuca_Torres
-Este proyecto es una aplicación Angular servida con Apache, ejecutada en un contenedor Docker basado en Debian.
 
-## Requisitos
 
-- Docker
-- Node.js y npm (opcional, si quieres construir el proyecto en tu máquina local)
+
 
 ## Configuración de la Aplicación Angular
 
-La aplicación Angular está configurada para mostrar el mensaje "¡Bienvenido a mi servidor Docker con Angular!" en la página principal.
+La aplicación Angular está configurada para funcionar como chat_socket
 
 ## Pasos para Construir y Ejecutar el Proyecto
 
